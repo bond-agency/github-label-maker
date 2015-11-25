@@ -1,0 +1,112 @@
+{
+  "labelTypes" : [
+    {
+      "type" : "problem",
+      "color" : "EE3F46",
+      "labels" : [
+        {
+          "name" : "bug"
+        },
+        {
+          "name" : "security"
+        }
+      ]
+    },
+    {
+      "type" : "experience",
+      "color" : "FFC274",
+      "labels" : [
+        {
+          "name" : "copy"
+        },
+        {
+          "name" : "design"
+        },
+        {
+          "name" : "ux"
+        }
+      ]
+    },
+    {
+      "type" : "environment",
+      "color" : "FAD8C7",
+      "labels" : [
+        {
+          "name" : "staging"
+        },
+        {
+          "name" : "production"
+        },
+        {
+          "name" : "quality assurance"
+        }
+      ]
+    },
+    {
+      "type" : "feedback",
+      "color" : "CC317C",
+      "labels" : [
+        {
+          "name" : "discussion"
+        },
+        {
+          "name" : "rfc"
+        },
+        {
+          "name" : "question"
+        }
+      ]
+    },
+    {
+      "type" : "improvement",
+      "color" : "5EBEFF",
+      "labels" : [
+        {
+          "name" : "enhancement"
+        },
+        {
+          "name" : "optimization"
+        }
+      ]
+    },
+    {
+      "type" : "addition",
+      "color" : "91CA55",
+      "labels" : [
+        {
+          "name" : "feature"
+        }
+      ]
+    },
+    {
+      "type" : "inactive",
+      "color" : "D2DAE1",
+      "labels" : [
+        {
+          "name" : "invalid"
+        },
+        {
+          "name" : "wontfix"
+        },
+        {
+          "name" : "duplicate"
+        },
+        {
+          "name" : "on hold"
+        }
+      ]
+    },
+    {
+      "type" : "priority",
+      "color" : "EE7B42",
+      "labels" : [
+        {
+          "name" : "high priority"
+        },
+        {
+          "name" : "low priority"
+        }
+      ]
+    }
+  ]
+}
