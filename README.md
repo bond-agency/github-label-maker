@@ -1,6 +1,6 @@
 # GitHub Label Maker
 
-GitHub Label Maker is a small script set which you can use to add/update and remove issue labels in GitHub repositories. It uses GitHub's [Octokit library](https://github.com/octokit/octokit.rb) to manage repositories. Why? Because it's frustrating to always create missing labels to new repositories by hand.
+GitHub Label Maker is a small script set which you can use to add/update and remove [issue labels](https://github.com/bond-agency/github-label-maker/labels) in GitHub repositories. It uses GitHub's [Octokit library](https://github.com/octokit/octokit.rb) to manage repositories. Why? Because it's frustrating to always create missing labels to new repositories by hand.
 
 ## Setup
 
@@ -36,7 +36,7 @@ chmod 0600 .netrc
 
 ### labels.json
 
-When using the add/update script you'll need to fill the labels to ```labels.json``` file. The repository contains our set of labels which is mostly copied from here: https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/
+When using the add/update script you'll need to fill the labels to ```labels.json``` file. The repository contains [our set of labels](https://github.com/bond-agency/github-label-maker/labels) which is mostly copied from here: https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/
 
 The structure of the json file uses following pattern:
 
