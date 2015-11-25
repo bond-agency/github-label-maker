@@ -18,18 +18,21 @@ gem install json
 
 You need to create a Persional access token which is used in the ```.netrc``` file. You can create one in your profile settings: https://github.com/settings/tokens
 
-The script is tested and it should work with only repo option selected.
+The script is tested and it should work with only **repo** option selected.
 
 ### .netrc
 
-You need ```.netrc``` file  which contains your authentication information. The .netrc file usage is explained in [Octokit's repo](https://github.com/octokit/octokit.rb#using-a-netrc-file), but the basic format is this:
+You need ```.netrc``` file  which contains your authentication information. Create the ```.netrc``` file in same directory where the script is. The .netrc file usage is explained in [Octokit's repo](https://github.com/octokit/octokit.rb#using-a-netrc-file), but the basic format is this:
 
 ```
 machine api.github.com
   login <your-username>
   password <your 40 char token>
 ```
-Create the ```.netrc``` file in same directory where the script is.
+And then you need to:
+```
+chmod 0600 .netrc
+```
 
 ### labels.json
 
