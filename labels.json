@@ -75,6 +75,9 @@
       "labels" : [
         {
           "name" : "feature"
+        },
+        {
+          "name" : "change"
         }
       ]
     },
