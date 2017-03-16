@@ -110,6 +110,18 @@
           "name" : "low priority"
         }
       ]
+    },
+    {
+      "type" : "testing",
+      "color" : "006b75",
+      "labels": [
+        {
+          "name" : "browser testing"
+        },
+        {
+          "name" : "unit testing"
+        }
+      ]
     }
   ]
 }
