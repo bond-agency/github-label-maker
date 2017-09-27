@@ -1,56 +1,101 @@
 {
   "labelTypes" : [
     {
-      "type" : "problem",
+      "type" : "ACF",
+      "color" : "00E7B9",
+      "labels" : [
+        {
+          "name" : "Add"
+        },
+        {
+          "name" : "Change"
+        }
+      ]
+    },
+    {
+      "type" : "Component",
+      "color" : "c5def5",
+      "labels" : [
+        {
+          "name" : "Add"
+        },
+        {
+          "name" : "Change"
+        }
+      ]
+    },
+    {
+      "type" : "Container",
+      "color" : "1d76db",
+      "labels" : [
+        {
+          "name" : "Add"
+        },
+        {
+          "name" : "Change"
+        }
+      ]
+    },
+    {
+      "type" : "Configuration",
+      "color" : "fbca04",
+      "labels" : [
+        {
+          "name" : "Configuration"
+        }
+      ]
+    },
+    {
+      "type" : "Problem",
       "color" : "EE3F46",
       "labels" : [
         {
-          "name" : "bug"
+          "name" : "Bug"
         },
         {
-          "name" : "security"
+          "name" : "Security"
         }
       ]
     },
     {
-      "type" : "experience",
+      "type" : "Experience",
       "color" : "FFC274",
       "labels" : [
         {
-          "name" : "copy"
+          "name" : "Copy"
         },
         {
-          "name" : "design"
+          "name" : "Design"
         },
         {
-          "name" : "ux"
+          "name" : "UX"
         }
       ]
     },
     {
-      "type" : "environment",
+      "type" : "Environment",
       "color" : "FAD8C7",
       "labels" : [
         {
-          "name" : "staging"
+          "name" : "Staging"
         },
         {
-          "name" : "production"
+          "name" : "Production"
         },
         {
-          "name" : "quality assurance"
+          "name" : "Quality Assurance"
         }
       ]
     },
     {
-      "type" : "feedback",
+      "type" : "Feedback",
       "color" : "CC317C",
       "labels" : [
         {
-          "name" : "discussion"
+          "name" : "Discussion"
         },
         {
-          "name" : "rfc"
+          "name" : "RFC"
         },
         {
           "name" : "question"
@@ -58,68 +103,68 @@
       ]
     },
     {
-      "type" : "improvement",
+      "type" : "Improvement",
       "color" : "5EBEFF",
       "labels" : [
         {
-          "name" : "enhancement"
+          "name" : "Enhancement"
         },
         {
-          "name" : "optimization"
+          "name" : "Optimization"
         }
       ]
     },
     {
-      "type" : "addition",
+      "type" : "Addition",
       "color" : "91CA55",
       "labels" : [
         {
-          "name" : "feature"
+          "name" : "Feature"
         },
         {
-          "name" : "change"
+          "name" : "Change"
         }
       ]
     },
     {
-      "type" : "inactive",
+      "type" : "Inactive",
       "color" : "D2DAE1",
       "labels" : [
         {
-          "name" : "invalid"
+          "name" : "Invalid"
         },
         {
-          "name" : "wontfix"
+          "name" : "Wontfix"
         },
         {
-          "name" : "duplicate"
+          "name" : "Duplicate"
         },
         {
-          "name" : "on hold"
+          "name" : "On hold"
         }
       ]
     },
     {
-      "type" : "priority",
+      "type" : "Priority",
       "color" : "EE7B42",
       "labels" : [
         {
-          "name" : "high priority"
+          "name" : "High priority"
         },
         {
-          "name" : "low priority"
+          "name" : "Low priority"
         }
       ]
     },
     {
-      "type" : "testing",
+      "type" : "Testing",
       "color" : "006b75",
       "labels": [
         {
-          "name" : "browser testing"
+          "name" : "Browser testing"
         },
         {
-          "name" : "unit testing"
+          "name" : "Unit testing"
         }
       ]
     }

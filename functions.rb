@@ -46,9 +46,11 @@ def createLabels(repo_full_name)
   for labeltype in data["labelTypes"]
 
     color = labeltype["color"]
+    type = labeltype["type"]
 
     for label in labeltype["labels"]
-      createLabel(repo_full_name, label["name"], color)
+      name = type + ": " + label["name"]
+      createLabel(repo_full_name, name, color)
     end
 
   end
