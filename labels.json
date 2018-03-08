@@ -41,7 +41,13 @@
       "color" : "fbca04",
       "labels" : [
         {
-          "name" : "Configuration"
+          "name" : "Settings"
+        },
+        {
+          "name" : "Server"
+        },
+        {
+          "name" : "Other"
         }
       ]
     },
